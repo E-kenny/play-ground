@@ -9,7 +9,7 @@ Console.WriteLine(GetGlCodeFromLedger("123456789099999999996767"));
     var cleanLedger = ledger.Trim();
 
 
-    if (cleanLedger.Length == 0)
+    if (cleanLedger.Length = 0)
     {
         return string.Empty;
     }
